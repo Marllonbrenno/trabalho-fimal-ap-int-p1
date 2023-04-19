@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>formulario pra contato</title>
+    </head>
+    <body style="background-color: #17d460;color: #ffffff;">
+        <header style="  background-color: rgb(19, 94, 192); text-align: center; padding: 10px ; font-size: 30px;"><!--cabeçalho-->
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">html<sup>linguagem de mercaçao de texto</sup></h1>
+            <h2>tutoriais para iniciantes</h2> 
+        </header>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: space-between; background-color: aqua; padding: 10 px;">
+                <li style="flex-grow: 1;"><a href="index.html" style="color: #ffffff; text-decoration: none;">Inicio</a></li>
+                <li style="flex-grow: 1;"><a href="index.html#html" style="color: #ffffff; text-decoration: none;">Html</a></li>
+                <li style="flex-grow: 1;"><a href="index.html#tabela" style="color: #ffffff; text-decoration: none;">tabela/lista</a></li>
+                <li style="flex-grow: 1;"><a href="index.html#sobre" style="color: #ffffff; text-decoration: none;">sobre CSS, HTML e jS</a></li>
+                <li style="flex-grow: 1;"><a href="index.html#rodape" style="color: #ffffff; text-decoration: none;">links</a></li>
+                <li style="flex-grow: 1;"><a href="contato.html" style="color: #ffffff; text-decoration: none;">Nos contate</a></li>
+            </ul>
+        </nav>
+        <form method="get" action="obrigado.html">
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" required> <br>
+            <label for="email">email</label> ,<br>
+            <input type="email" name="email" required> <br>
+            <label for="assunto">assunto</label><br>
+            <select name="assunto" id="a" required>
+                <option value=""></option>
+                <option value="fuga">elogio</option>
+                <option value="ferimentos">duvidas</option>
+                <option value="captura">sugestoes</option>
+            </select> <br>
+            <label for="mensagem">mensagem</label><br>
+            <textarea name="mensagem" id="" cols="135" rows="10" placeholder="bla bla bla" required></textarea> <br> <br>
+            <input type="checkbox" name="termos" required>
+            <lanel for="termos">Concordo com os Termos de Privacidade do Site</lanel> <br>
+            <input type="submit" value="cadastrar">
+        </form>
+        <footer style="display: grid; grid-template-columns: auto auto auto auto;" id="rodape"><!--rodape-->
+            <div style="background-color: #ff00004d;">
+                <h3>sobre</h3>
+                <ul>
+                    <li><a href="index.html">topo</a></li>
+                    <li><a href="direitos.html">Politica de Privacidade</a></li>
+                    <li><a href="contato.html">Fale conosco</a></li>
+                </ul>
+            </div>
+            <div style="background-color: blueviolet;">
+                <h3>Referencias</h3>
+                <ul>
+                    <li><a href="https://w3school.com" target="_blank">w3school</a></li>
+                    <li><a href="https://alura.com.br" target="_blank">Alura</a></li>
+                    <li><a href="https://www.youtube.com/@profdanielbrandao" target="_blank">youtube</a></li>
+                </ul>
+            </div>
+            <div style="background-color: cornflowerblue;">
+                <h3>Tutoriais</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=iF66er2oHBo" target="_blank">Design</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=MQDUUodMfCQ" target="_blank">Marketing</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=vvThhk2btO8" target="_blank">programaçao</a></li>
+                    <li><a href="https://www.youtube.com/@CursoemVideo/about" target="_blank">tutoriais</a></li>
+                </ul>
+            </div>
+            <div style="background-color: crimson;">
+                <h3>Outros links</h3>
+                <ul>
+                    <li><a href="https://github.com/" target="_blank">github</a></li>
+                    <li><a href="https://code.org/" target="_blank">cursos</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">saiba mais </a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+
+</html>

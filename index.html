@@ -1,0 +1,149 @@
+<html><!--projeto de Marllom Brenno-->
+<link rel="shortcut icon" href="" type="image/x-icon">
+    <head>
+        <title>html</title>
+    </head>
+    <body style="margin: 0; background-color: #000000; color: #ffffff;">
+        <div><!--div geral-->
+            <header style="  background-color: rgb(19, 94, 192); text-align: center; padding: 10px ; font-size: 30px;"><!--cabeçalho-->
+                <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">html<sup>linguagem de mercaçao de texto</sup></h1>
+                <h2>tutoriais para iniciantes</h2> 
+            </header>
+            <nav>
+                <ul style="list-style: none; display: flex; justify-content: space-between; background-color: aqua; padding: 10 px;">
+                    <li style="flex-grow: 1;"><a href="index.html" style="color: #ffffff; text-decoration: none;">Inicio</a></li>
+                    <li style="flex-grow: 1;"><a href="index.html#html" style="color: #ffffff; text-decoration: none;">Html</a></li>
+                    <li style="flex-grow: 1;"><a href="index.html#tabela" style="color: #ffffff; text-decoration: none;">tabela/lista</a></li>
+                    <li style="flex-grow: 1;"><a href="index.html#sobre" style="color: #ffffff; text-decoration: none;">sobre CSS, HTML e jS</a></li>
+                    <li style="flex-grow: 1;"><a href="index.html#rodape" style="color: #ffffff; text-decoration: none;">links</a></li>
+                    <li style="flex-grow: 1;"><a href="contato.html" style="color: #ffffff; text-decoration: none;">Nos contate</a></li>
+                </ul>
+            </nav>
+            <section id="html" style="margin-bottom: 70px;"><!--paragrafo inicial-->
+                    <p style="margin-bottom: 50px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" width="50" align="left" border="0" title="logo HTML">
+                        <strong>HTML</strong> (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. <mark>Define o significado e a estrutura do conteúdo da web</mark>. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web."Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web
+                    </p>
+                    <p style="margin-bottom: 70px;">
+                        <h1>Qual a funçao do HTML?</h1>
+                        Imagine que voce precisa construir um site do zero com informações da sua empresa. Nesse caso, voce precisará conhecer a estrutura do <strong>HTML</strong>, criando um documento no bloco de notas e acrescentando códigos tags, que indicarão paragrafos, quebra de texto , espaçamento, imagens, entre outros. Em geral, em um unico site existem diversos documentos <strong>HTML</strong>, criando paginas com homepage pagina de produto e informações sobre a empresa. Em cada aba, existe um codigo diferente.
+                    </p>
+            </section>
+            <section style="display: flex; margin-bottom: 80px;" id="tabela"><!--tabela/listas-->
+                <section id="2" style="width: 50%; background-color: chocolate;"><!--tabelas-->
+                    <p>
+                        <table border="1" style="width: 100%;">
+                            <thead>
+                                <caption>html</caption>
+                                <tr>
+                                    <th>TAG</th>
+                                    <th>UTILIDADE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>b</td>
+                                    <td>Formata um texto em <b>negrito</b></td>
+                                </tr>
+                                <tr>
+                                    <td>big</td>
+                                    <td>Formata um texto com <big>fonte maior</big></td>
+                                </tr>
+                                <tr>
+                                    <td>sup</td>
+                                    <td>Formata um texto<sup>sobrescrito</sup></td>
+                                </tr>
+                                <tr>
+                                    <td>sub</td>
+                                    <td>Formata um texto<sub>subscrito</sub></td>
+                                </tr>
+                                <tr>
+                                    <td>small</td>
+                                    <td>Formata um texto com <small>fonte menor</small></td>
+                                </tr>
+                                <tr>
+                                    <td>br</td>
+                                    <td>Insere uma quebra de linha</td>
+                                </tr>
+                                <tr>
+                                    <td>h1..h6</td>
+                                <td>define cabeçalhos 1 a 6</td>
+                                </tr>
+                                <tr>
+                                    <td>ins</td>
+                                    <td>formata um texto <ins>sublinhado</ins></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                </section>
+                <article id="3" style="width: 50%; background-color: green;"><!--lista ordenada/nao ordenada-->
+                    <ol type="1"><!--ol representa uma lista ordenada o I representa que esta em algarismo romano-->
+                        <caption>top 5 ptotocolos web</caption>
+                        <li>HTTP-HyperText Transfer Protocol</li>
+                        <li>DHCP-Dynamic Host Configuration Protocol</li>
+                        <li>FTP-File Transfer Protocol</li>
+                        <li>ICMP-Internet Control Message Protocol</li>
+                        <li>POP-Post Office Protocol</li>
+                    </ol>
+                    <ul>
+                        <li>HTTP-HyperText Transfer Protocol</li>
+                        <li>DHCP-Dynamic Host Configuration Protocol</li>
+                        <li>FTP-File Transfer Protocol</li>
+                        <li>ICMP-Internet Control Message Protocol</li>
+                        <li>POP-Post Office Protocol</li>
+                    </ul>
+                </article>
+            </section>
+            <section style="display: flex; margin-bottom: 80px;" id="sobre"><!--texto css,html,javascript-->
+                <section style="background-color: blue; width: 33.33%; height: 150px;">
+                    <p><h1>O que e CSS?</h1></p>
+                    Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags &lt;style&gt;.<br> Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos
+                </section>
+                <section style="background-color: rgb(8, 61, 61); width: 33.33%; height: 150px;">
+                    <p><h1>O que e HTML?</h1></p>
+                    HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo
+                </section>
+                <section style="background-color: rgb(51, 83, 19); width: 33.33%; height: 150px;">
+                    <p><h1>O que e JavaScript?</h1></p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                </section>
+            </section>
+            <footer style="display: grid; grid-template-columns: auto auto auto auto;" id="rodape"><!--rodape-->
+                <div style="background-color: #ff00004d;">
+                    <h3>sobre</h3>
+                    <ul>
+                        <li><a href="index.html">topo</a></li>
+                        <li><a href="direitos.html">Politica de Privacidade</a></li>
+                        <li><a href="contato.html">Fale conosco</a></li>
+                    </ul>
+                </div>
+                <div style="background-color: blueviolet;">
+                    <h3>Referencias</h3>
+                    <ul>
+                        <li><a href="https://w3school.com" target="_blank">w3school</a></li>
+                        <li><a href="https://alura.com.br" target="_blank">Alura</a></li>
+                        <li><a href="https://www.youtube.com/@profdanielbrandao" target="_blank">youtube</a></li>
+                    </ul>
+                </div>
+                <div style="background-color: cornflowerblue;">
+                    <h3>Tutoriais</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=iF66er2oHBo" target="_blank">Design</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=MQDUUodMfCQ" target="_blank">Marketing</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=vvThhk2btO8" target="_blank">programaçao</a></li>
+                        <li><a href="https://www.youtube.com/@CursoemVideo/about" target="_blank">tutoriais</a></li>
+                    </ul>
+                </div>
+                <div style="background-color: crimson;">
+                    <h3>Outros links</h3>
+                    <ul>
+                        <li><a href="https://github.com/" target="_blank">github</a></li>
+                        <li><a href="https://code.org/" target="_blank">cursos</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">saiba mais </a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
